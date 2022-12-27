@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+#header {
+    padding: 20px;
+    background: #f4dd45;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#header .header-item {
+    font-size: 15px;
+    color: rgb(31, 28, 28);
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 10px;
+    margin: 0 15px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+#header .header-item.active,
+#header .header-item:hover {
+    border: 1px solid black;
+}
+
+#sofa {
+    margin-top: 189px;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    text-align: center;
+}
+
+#products {
+    margin-top: 150px;
+}
+
+#products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#products-item {
+    max-width: 820px;
+    margin: 47px auto 90px auto;
+}
+
+#products-item .product {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 15.66px 2.34px rgba(199, 193, 203, 0.22);
+    width: 248px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    margin: 11px;
+
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    position: relative;
+}
+
+#products-item .product:hover {
+    box-shadow: 0 2px 15.66px 2.34px rgba(199, 193, 203, 0.52);
+}
+
+#products-item .product .product-text {
+    height: 46px;
+}
+
+#footer {
+    padding: 43px;
+    background: #995d00;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+#big-star {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+#small-star {
+    width: 91px;
+    position: absolute;
+    left: 90px;
+    top: 640px;
+}
+
+#products-item .product .product-new {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#products-item .product.new::after {
+    content: url("../images/signaling.png");
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#cookie {
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 15.66px 2.34px rgba(199, 193, 203, 0.22);
+    width: 294px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#cookie-title {
+
+}
+
+#cookie-title span {
+    font-size: 20px;
+    color: rgb(54, 54, 54);
+    font-weight: bold;
+    margin-right: 90px;
+}
+
+#cookie-text {
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(54, 54, 54);
+}
